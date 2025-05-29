@@ -20,7 +20,7 @@
     <div class="site-header" role="banner"> 
       <!-- here ^^ -->
       <h1>Jam Box Studios</h1>
-      <div class="main-nav" role="navigation">
+      <nav class="main-nav" role="navigation">
         <!-- here ^^ -->
         <ul>
           <li><a href="#">Home</a></li>
@@ -28,11 +28,11 @@
           <li><a href="#">Reservation</a></li>
           <li><a href="#">Studio</a></li>
         </ul>
-      </div>
+      </nav>
       <img src="https://placekitten.com/1200/900" class="banner" role="banner">
       <!-- here^^ -->
     </div>
-    <div class="main-content" role="main">
+    <main class="main-content" role="main">
       <!-- here^^ -->
       <h2>Welcome to Jam Box</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
@@ -54,6 +54,7 @@
           B3T 0L0
         </p>
       </div>
+      <!-- CHANGE THIS DIV? ASIDE OR ARTICLE? BOTH ABOVE + BELOW -->
       <div class="contact-section" role="form">
         <!-- here^^ -->
         <h2>Contact Us</h2>
@@ -67,12 +68,21 @@
           <button type="submit">Send</button>
         </form>
       </div>
-    </div>
-    <div class="site-footer" role="contentinfo">
+    </main>
+    <footer class="site-footer" role="contentinfo">
       <!-- here^^ -->
       &copy; 2021 Jam Box Studios
-    </div>
+    </footer>
   </div>
 </body>
 
 </html>
+
+<!-- changes made so far..
+ - added ARIA roles to sections
+ - changed heading hierarchy (all started as h1s)
+ - 
+ 
+ 
+ 
+ -->
